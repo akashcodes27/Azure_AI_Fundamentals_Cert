@@ -41,3 +41,16 @@ Types of Unsupervised Learning Problems:
 
 3rd type of problem: Reinforcement Learning: 
 An AI Agent learns by interacting with an environment. The environment responds in 2 ways: Positive Feedback(rewards), Negative Feedback(penalties). The AI Agent repeatedly makes choices and moves, learns strategies from the positive and negative feedbacks and tries to maximize rewards and minimize penalties.
+
+Ground Truth: In case of structured data: The output column. In case of unstructured data(images): Properly laballed and annotated images with bounding boxes that show what actual predictions should be like.
+
+What is a Neural Network:
+It is basically modeling how a human brain works. A network of nodes known as neurons that take as input data and process it to give an output. Neural Networks form an interconnected layer-wise network of neurons.
+Each neuron takes input, applies a mathematical weight and bias, passes is through an Activation Function and sends the result forward. First layer receives raw inputs like images of dogs, cats. The hidden layers process and learn paterns. The final layer outputs predictions. 
+There is concept called "Backpropagation" which is basically when there is a change in the direction of input/outputs. Outputs are sent as inputs to the earlier layers. This is done to adjust weights and is done to better understand complex patterns and relationships so that weights can be accordingly adjusted to minimize loss function
+
+A Neural Network containing 3 or more hidden layers is considered a Deep Learning Model.
+
+Loss Function: It tells us how far are the model's predictions from Ground Truth(Actual Output Data)
+
+Activation Function: It is a function that applies transformations on the input data, helps neurons learn complex patterns better and passes the output to the next layer
