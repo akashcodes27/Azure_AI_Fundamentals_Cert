@@ -24,4 +24,17 @@ What is Data Labelling: It is the process in which we add meaningful changes lik
 DONT GET CONFUSED: Whats happening?
 Lets say we have structured data(as rows and columns). If we use Supervised Machine Learning Algorithm, we also provide output column. If we use Unsupervised Machine Learning Algorithm, we dont provide output column. 
 
+SUPERVISED: Task Driven - needs to learn and do a specific prediction task 
+UNSUPERVISED: Data Driven - exploratory & research driven in nature, finds patterns
+
 Just like that when training models with image datasets, if using Supervised ML model, we provide bounding boxes and labels(equivalent of output column). If using Unsupervised ML model, we don't provide any labels.
+
+
+Types of Supervised Learning Problems:
+1. Classification 
+2. Regression 
+
+Types of Unsupervised Learning Problems:
+1. Clustering 
+2. Dimensionality Reduction
+3. Association 
