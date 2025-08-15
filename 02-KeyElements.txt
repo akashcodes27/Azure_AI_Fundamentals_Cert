@@ -5,3 +5,23 @@ Key Elements of AI:
 3. Computer Vision: Able to see, recognize like human 
 4. Natural Language Processing: Able to process written text, languages, infer contexts like a human. 
 5. Conversational AI: Able to communicate or have conversations like a human with a human
+
+
+What is a dataset?
+A dataset is a logical grouping of units of data that are closely related or share the same data structure. There are publically available datasets that are used in ML, statistics, data analysis
+
+Some Popular Datasets:
+
+MNIST Dataset: 
+A dataset that consists of hand-written numbers/digits. This dataset is used to train ML models/neural networks to identify human handwritten digits so systems could be used to translate them to digital numbers. These ML models using Computer Vision to identify human written digits.
+
+
+COCO Dataset: (Common Objects in Context Dataset):
+It is a popular dataset that contains images in the JSON format. It contains 330,000+ images, 1.5million+ object instances, approx 80 object categories, 4 captions per image, 90 stuff categories. It is mainly used for tasks like Object Detection, Image Segmentation, Image Captioning. 
+
+What is Data Labelling: It is the process in which we add meaningful changes like bounding boxes and labels on the raw data(images, text files, videos) to provide meaningful context and guidance to the models that we wish to train using these daatasets
+
+DONT GET CONFUSED: Whats happening?
+Lets say we have structured data(as rows and columns). If we use Supervised Machine Learning Algorithm, we also provide output column. If we use Unsupervised Machine Learning Algorithm, we dont provide output column. 
+
+Just like that when training models with image datasets, if using Supervised ML model, we provide bounding boxes and labels(equivalent of output column). If using Unsupervised ML model, we don't provide any labels.
