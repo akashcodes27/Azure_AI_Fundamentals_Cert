@@ -54,3 +54,10 @@ A Neural Network containing 3 or more hidden layers is considered a Deep Learnin
 Loss Function: It tells us how far are the model's predictions from Ground Truth(Actual Output Data)
 
 Activation Function: It is a function that applies transformations on the input data, helps neurons learn complex patterns better and passes the output to the next layer
+
+
+What is GPU(Graphical Processing Unit): Is a physical processing unit which is designed to quickly process and render high resolution graphics of images and video frames concurrently. GPU can perform parallel computations on multiple sets of data so they are used for high volume data processing tasks, mathematical and scientific computations. GPUs are suited for Highly parallel and repetitive tasks such Renderring graphics, Cryptocurrency mining, Deep Learning and ML.
+CPUs have a few processing cores which perform sequential computations of the data. GPUs on the other hand have thousands of smaller processing units or cores that have the ability to perform Complex Computations, process large volumnes of data, high resolution graphics, complex neural network processing tasks PARALLELY(Or Concurrently).
+
+What is CUDA:
+Context: So GPUs were made to only process high resolution graphics. But CUDA(Compute Unified Device Architecure) is a parallel computing programming model API developed by NVIDIA to enable GPU to be used beyond just the Graphics Processing tasks, to enable GPU to peform Highly complex mathematical and scientific computations, big data processing, deep learning. CUDA has many libraries which allow programmers to use their libraries to write code that speeds up computations of heavy matrix operations. In Short, CUDA allows a GPU to perform complex matrix calculations very effeciently and do other computational tasks beyond just the graphics processing.
