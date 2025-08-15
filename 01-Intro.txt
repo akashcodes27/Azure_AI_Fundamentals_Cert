@@ -5,13 +5,16 @@ AI = (Machine Learning + Deep Learning + AI Agents)
 
 
 
-
 Machine Learning: It consists of algorithms that learn patterns from input data, and make predictions for classification, regression etc on the basis of learnt patterns from data. These intelligent algorithms(algos for training) are called trained models(they are trained on specific datasets to generate specific types of predictions). 
-KEY TAKEWAY: Models learn from data, and engineers use statisticals methods and hyperparameter tuning to use these models for larger prediction related workloads. 
+KEY TAKEWAY: Models learn from data WITHOUT explicit programming, and engineers use statisticals methods and hyperparameter tuning to use these models for larger prediction related workloads. 
 
 
 Artificial Intelligence: It is a broad umbrella. AI mimics human like behavior. In robotics, AI can be used to train robots to make moves and decisions like humans. AI software agents make decisions and moves like humans(chess playing, online booking, browsing), game playing, predicting etc. These decisions and moves involve (critical thinking, reasoning, problem-solving, decision making, )
 KEY TAKEWAY: Agents that behave like humans by using critical thinking.
+
+
+
+Deep Learning: it is a subset of Machine Learning. But deep learning involves using complex neural networks to identify complex patterns from large amounts of data to solve prediction problems. These neural networks are available as models that require training with data and hyperparameter tuning. The architectures of these neural networks are inspired by the working of the human brain.
 
 
 

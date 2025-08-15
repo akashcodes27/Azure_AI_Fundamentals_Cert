@@ -1,0 +1,7 @@
+Key Elements of AI:
+
+1. Machine Leaning: Learn from data and predict like human 
+2. Anomaly Detection: Detect anomalies or things out of place like humans. 
+3. Computer Vision: Able to see, recognize like human 
+4. Natural Language Processing: Able to process written text, languages, infer contexts like a human. 
+5. Conversational AI: Able to communicate or have conversations like a human with a human
