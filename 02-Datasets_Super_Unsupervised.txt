@@ -61,3 +61,6 @@ CPUs have a few processing cores which perform sequential computations of the da
 
 What is CUDA:
 Context: So GPUs were made to only process high resolution graphics. But CUDA(Compute Unified Device Architecure) is a parallel computing programming model API developed by NVIDIA to enable GPU to be used beyond just the Graphics Processing tasks, to enable GPU to peform Highly complex mathematical and scientific computations, big data processing, deep learning. CUDA has many libraries which allow programmers to use their libraries to write code that speeds up computations of heavy matrix operations. In Short, CUDA allows a GPU to perform complex matrix calculations very effeciently and do other computational tasks beyond just the graphics processing.
+
+
+NVIDIA Deep Learning SDK: NVIDIA Deep Learning SDK is a collection of tools, libraries, machine learning models, software provided by NVIDIA that enable developers to build, train, deploy machine learning models. It includes libraries like cuDNN, TensorRT, development tools like CUDA and NCCL that help with multi GPU scaling. In short it is a collection of tools that lets us harness or leverage GPU accelaration in every stage of ML model pipeline(Model Training to Real-Time-Inference)

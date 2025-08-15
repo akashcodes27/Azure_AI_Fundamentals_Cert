@@ -1,0 +1,12 @@
+ML Pipeline:
+
+(For Supervised Learning Problem)
+
+Data Labelling -> Feature Engineering -> Training -> Hyperparameter Tuning -> Serving -> Inference 
+
+Data Labelling: This is the stage where Raw Data (text, images, audio, video) are annotated(labelled) using Ground Truth Labels so that the model can easily learn patterns. For example, in the image dataset, each image might be tagged as "cat" or "dog", or bounding boxes can be drawn around the object instances in the image. This provides a Context or Guide to the model so that the model can learn properly.
+
+Feature Engineering: Feature Engineering is the process of transforming raw data into structured format that makes it easier for a machine learning model to learn from and understand. Raw data is often too complex, noisy, or incomplete hence difficult for ML models to understand. Through feature engineering, we select, create and modify features that highlight most important patterns in data and allow models to efficiently process these patterns. For structured data(rows and columns): redundant attributes can be gotten rid of or converted into more meaningful attributes. For text data, sentences can be converted into word counts or embeddings, for image data, pixel data can be converted into color histograms or edge detectors. 
+
+
+Training: In this phase, the labelled and feature-engineered dataset is fed into the machine learning algorithm. The neural network(or the model) learns the patterns from this dataset, adjusts its internal weights, minimizes error , improves understanding of patterns through backpropagation guided by the loss function.
