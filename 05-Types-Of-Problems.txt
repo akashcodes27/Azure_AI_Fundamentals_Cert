@@ -1,6 +1,9 @@
 Regression Problem: 
 
 A regression problem is a type of supervised machine learning task where the goal is to predict a continuous numeric value (not a category). The model learns from labelled training data that has input features and a real-valued output, then tries to estimate that output for new, unseen data. To solve regression problems, we have regression models which basically model a linear relationship between one dependent variable(target variable) and multiple independent variables (features or attributes). The model basically learns relationships between seen inputs/outputs, and when presented with unseen inputs, it tries to find outputs that have a linear relationship with inputs(basically tries to find the best line or curve)
+Mathematically, relationship between input variables and output variable is a function 
+
+Example models: Linear regression, polynomial regression, Random Forests, Decision Trees, Support Vector Regressors, Ridge, Lasso, ElasticNet Regression 
 
 
 Examples:
@@ -35,4 +38,18 @@ Very similar to MSE, the only difference: we take absolute value instead of squa
 We take absolute value for each different (not square as we did in MSE)
 We calculate average of the absolute value differences 
 And thats it, the value we get is the MAE (Mean Absolute Error)
+
+
+--------------------------------------------------------------------------------------------------
+
+Classification Problem: It is a Supervised Machine Learning problem which can be solved using Classification Algorithm. The algorithm takes as input a labelled dataset , analyses patterns and gives predictions in the form of separate classes or categories(and not continuous values). Mathematically relationship between input variables and output variable is a function.
+Graphically, the classification function gives us a line which divides the categories into 2(or more parts), the position of the occurance of output variable decides the category of output variable.
+
+
+Examples of Classification Problems:
+Logistic Regression, Decision Trees, Random Forest, SupportVectorMachines, Naive Baiyes
+
+
+Evaluation Metrics for Evaluation Problem:
+
 
