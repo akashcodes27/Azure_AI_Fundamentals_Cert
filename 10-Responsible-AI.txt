@@ -48,4 +48,10 @@ Guidelines for Human-AI Interaction
 
 10. Remember Recent Interactions(Maintain short term memory): A guideline that tells AI systems to remember recent interactions for eg: When we open outlook, it shows us most recent chats, people, recent files, copied links. Same goes for search engines. When you search "How old is charlie puth", the next time you open browser and type "How", the search engine gives age recommendation questions for other similar celebrities instead of giving random suggestions starting from "how"
 
+11. Learn from User Behavior (Personalization): Very common in Food Delivery Apps, Ecommerce Online shopping apps, OTT platforms like netflix etc, also implemented in MS office tools: Eg: Showcasing most commonly used tools 
+
+12. Encourage Granular Feedback: Enable users to provide feedback allowing AI systems to learn more about users preferences. This is implemented in ChatGPT, which often prompts 2 responses parallely asking user to choose the one which aligns more with their expectations, there is also a like, dislike button as a feedback for the generated content.
+
+13. Provide Global Controls: Allow end-users to have controls to how the AI systems must respond, end-users can set their boundaries, how aggressively or how mildly they want AI systems to interact, suggest, recommend, or correct the user. Eg:Enabling , disabling Safe Search in google can drastically change the kind of results you see.
+
 
