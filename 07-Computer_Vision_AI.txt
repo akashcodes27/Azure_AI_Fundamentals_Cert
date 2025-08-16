@@ -14,3 +14,5 @@ There are different types of Computer Vision Problems:
 4. Image Analysis: This is a problem which is combination of many different problems like classification, object detection, semantic segmentation, etc. It uses all these techniques to extract meaningful and critical information from analysed images to solve real world problems 
 
 5. OCR (Optical Character Recognition): OCR is a computer vision application which involves extracting text information from images and videos. It identifies, extracts and converts text in images into digital text that is understandable by machine. Popular application: License Plate Recognition. Trained YOLO models can use OCR technology to detect license plate, identify, extract and convert the image text into digital format for processing of fines and penalties.
+
+6. Facial Detection and recognition: Also a computer vision application, models can be trained on facial data , models can analyze face images to remember unique patterns and details of faces. This has applications in smart phone face unlock tech, social media face detection to tag friends in pictures etc. 
