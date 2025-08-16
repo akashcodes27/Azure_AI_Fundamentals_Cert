@@ -11,3 +11,25 @@ Different Evaluation Metrics are used for different kinds of problems:
 5. Computer Vision Metrics: PSNR, SSIM, IoU 
 6. NLP Metrics: Perplexity, BLEU, METEOR, ROUGE 
 7. Deep Learning Related Metrics: Inception Score, Franchet Inception Distance 
+
+There are 2 main categories of Evaluation Metrics:
+Internal Metrics: 
+External Metrics: 
+
+
+One very popular Evaluation Metric: Confusion Matrix 
+Confusion Matrix gives us 4 values: True Positives, True Negatives, False Positives, False Negatives 
+X-Axis: Ground Truth  [True, False]
+Y-axis: Prediction Labels/variables  [Positive , Negative]
+It compares Ground Truth with Prediction Variables to give us 4 kinds of evaluation results. 
+
+We usually compare 2 classes. One is assumed Positive, 2nd is assumed Negative 
+YES heart disease: Positive 
+No heart disease: Negative 
+
+True Positive: Prediction says Positive, Ground Truth is True 
+Predicted YES heart Disease, Ground Truth YES heart Disease 
+
+True Negative: Prediction NO heart disease, Ground Truth YES heart disease 
+
+False Postive: Predicted YES heart diease, Ground Truth No Heart Disease 

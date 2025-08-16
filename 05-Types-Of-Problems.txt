@@ -1,3 +1,15 @@
+Types of Supervised Learning Problems:
+1. Classification 
+2. Regression 
+
+Types of Unsupervised Learning Problems:
+1. Clustering 
+2. Dimensionality Reduction
+3. Association 
+
+
+SUPERVISED MACHINE LEARNING PROBLEMS 
+
 Regression Problem: 
 
 A regression problem is a type of supervised machine learning task where the goal is to predict a continuous numeric value (not a category). The model learns from labelled training data that has input features and a real-valued output, then tries to estimate that output for new, unseen data. To solve regression problems, we have regression models which basically model a linear relationship between one dependent variable(target variable) and multiple independent variables (features or attributes). The model basically learns relationships between seen inputs/outputs, and when presented with unseen inputs, it tries to find outputs that have a linear relationship with inputs(basically tries to find the best line or curve)
@@ -39,7 +51,7 @@ We take absolute value for each different (not square as we did in MSE)
 We calculate average of the absolute value differences 
 And thats it, the value we get is the MAE (Mean Absolute Error)
 
-
+--------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------
 
 Classification Problem: It is a Supervised Machine Learning problem which can be solved using Classification Algorithm. The algorithm takes as input a labelled dataset , analyses patterns and gives predictions in the form of separate classes or categories(and not continuous values). Mathematically relationship between input variables and output variable is a function.
@@ -52,4 +64,15 @@ Logistic Regression, Decision Trees, Random Forest, SupportVectorMachines, Naive
 
 Evaluation Metrics for Evaluation Problem:
 
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+UNSUPERVISED MACHINE LEARNING PROBLEMS:
+
+Clustering Problem:
+
+Clustering Problem is an unsupervised machine learning problem that receives unlabelled datasets(or datasets with no pre-defined labels) during its training process. The algorithm does not know what the prediction should look like hence it is the algorithm's responsibility to identify patterns for all data points and create groups of data points on the basis of similarity of high value features. 
+Some example clustering models: K-Means, K-Medoids, Density, Hierarchical Clustering, DBSCAN, GMM(Gausian Mixture Model) 
 
