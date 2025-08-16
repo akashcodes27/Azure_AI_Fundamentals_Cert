@@ -36,4 +36,6 @@ Guidelines for Human-AI Interaction
 
 4. Mitigate Social Biases: Ensure that AI System's language and behaviors do not reinforce undesirable and unfair stereotypes and biases. Basically the language AI uses, the colors that is uses, any predictive texts/suggestions or any forms of interaction from AI systems should not have any forms of bias or stereotypes toward any groups, community, genders, race etc.
 
-5. Support Effecient Invocation: Basically AI systems can track user's behavior when interacting with certain tools and can jump in with suggestions, corrective measures, optimizations in timely manner through certain triggers(based on how end-users interact with those tools or elements).
+5. Support Effecient Invocation: Basically AI systems can track user's behavior when interacting with certain tools and can jump in with suggestions, corrective measures, optimizations in timely manner through certain triggers(based on how end-users interact with those tools or elements). Eg: When completing a purchase order on uber-eats, doordash or any other delivery apps, AI systems can jump in with Suggested Promos and Offers based on what was added to checkout making user aware of what they prolly didnt know.
+
+6. Support Efficient Dismissal: Make it easy for users to dismiss services that they do not need. AI systems can make time based efficient interruptions based on user's current task environment, but users may not need them, hence there should also always be an intuitive and easy way out. 
