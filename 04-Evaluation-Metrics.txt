@@ -19,8 +19,10 @@ External Metrics:
 
 One very popular Evaluation Metric: Confusion Matrix 
 Confusion Matrix gives us 4 values: True Positives, True Negatives, False Positives, False Negatives 
-X-Axis: Ground Truth  [True, False]
-Y-axis: Prediction Labels/variables  [Positive , Negative]
+Y-Axis: Ground Truth  [True, False]
+X-axis: Prediction Labels/variables  [Positive , Negative]
+
+X and y Axis are interchangable 
 It compares Ground Truth with Prediction Variables to give us 4 kinds of evaluation results. 
 
 We usually compare 2 classes. One is assumed Positive, 2nd is assumed Negative 
@@ -33,3 +35,8 @@ Predicted YES heart Disease, Ground Truth YES heart Disease
 True Negative: Prediction NO heart disease, Ground Truth YES heart disease 
 
 False Postive: Predicted YES heart diease, Ground Truth No Heart Disease 
+
+The matrix need not always be 2x2, it can also be 2x3 (when we have more than 2 categories or classes)
+Just Remember 
+True/False (Tells us Ground Truth)
+Positive/Negative (Tells us Prediction Output)

@@ -76,3 +76,4 @@ Clustering Problem:
 Clustering Problem is an unsupervised machine learning problem that receives unlabelled datasets(or datasets with no pre-defined labels) during its training process. The algorithm does not know what the prediction should look like hence it is the algorithm's responsibility to identify patterns for all data points and create groups of data points on the basis of similarity of high value features. 
 Some example clustering models: K-Means, K-Medoids, Density, Hierarchical Clustering, DBSCAN, GMM(Gausian Mixture Model) 
 
+--------------------------------------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+Anomaly Detection AI 
+
+Anomaly Detection AI is a branch of artificial intelligence focused on identifying unusual patterns, behaviors, or data points that don’t fit the expected norm. These “anomalies” are often rare but important, because they may signal errors, risks, or significant events.
+
+So basically the model is taught to know whats right or whats usual and expected. The moment the model finds any suspecious patterns, deviations, outliers, or any data points that don't follow the expected relationship, it identifies these outliers or observations as Anomalies.
+
+Applications:
+
+Fraud detection in banking (unusual transactions).
+
+Network security (spotting cyberattacks).
+
+Healthcare (detecting abnormal medical scans).
+
+Industrial systems (predicting equipment failure from sensor readings).
+
+AI systems are used in these industriees to continously scan environments for datapoints that behave differently to avoid disasters.
+
+There are different ML algorithms for this specific purpose of "Anomaly Detection". But we dont need to focus on them. Names: Isolation Forest, One Class SVM, Autoencoders

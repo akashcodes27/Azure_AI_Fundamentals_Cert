@@ -1,0 +1,16 @@
+Computer Vision AI 
+
+Computer Vision is a branch of Aritifical Intelligence which uses image datasets to take images as input into the ML models(like object detection YOLO model) and uses its neural networks to extract meaningful information, insights and patterns from the image pixels to accurately make predictions about detected objects, identified clases, segmented objects, extracted texts etc. 
+Basically it is a branch of AI that includes models that derive meaningful insights from visual information.
+
+There are different types of Computer Vision Problems:
+
+1. Image Classification: Image classification is the process of assigning an image a specific category from a number of different categories. It looks at a number of features of the image and assigns it to one of the pre-defined classes.
+
+2. Object Detection: Object Detection models are used to detect different object instances in images and videos. Once these models are trained, when we present unseen data, the model draws bounding boxes around the different object instances and also shows the label/category that the object belongs(detection as well as classification). If the model is trained to identify cats, dogs, cars, people. If we present an image or video with all these objects, the model will draw bounding boxes of different colors around each of these object instances with the correct labels to identify them.
+
+3. Semantic Segmentation: Similar to object detection, but more detailed. In semantic segmentation, every pixel in the image is identified , categorized and marked as belonging to a specific class. Like if an image consist of traffic light and road, every pixel in that traffic light will be categorized as "trafficsignal" and every pixel of road will be classified as "road", unline object detection models, which draw large bounding boxes around identified objects
+
+4. Image Analysis: This is a problem which is combination of many different problems like classification, object detection, semantic segmentation, etc. It uses all these techniques to extract meaningful and critical information from analysed images to solve real world problems 
+
+5. OCR (Optical Character Recognition): OCR is a computer vision application which involves extracting text information from images and videos. It identifies, extracts and converts text in images into digital text that is understandable by machine. Popular application: License Plate Recognition. Trained YOLO models can use OCR technology to detect license plate, identify, extract and convert the image text into digital format for processing of fines and penalties.
