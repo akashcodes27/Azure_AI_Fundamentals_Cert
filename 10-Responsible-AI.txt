@@ -38,4 +38,14 @@ Guidelines for Human-AI Interaction
 
 5. Support Effecient Invocation: Basically AI systems can track user's behavior when interacting with certain tools and can jump in with suggestions, corrective measures, optimizations in timely manner through certain triggers(based on how end-users interact with those tools or elements). Eg: When completing a purchase order on uber-eats, doordash or any other delivery apps, AI systems can jump in with Suggested Promos and Offers based on what was added to checkout making user aware of what they prolly didnt know.
 
-6. Support Efficient Dismissal: Make it easy for users to dismiss services that they do not need. AI systems can make time based efficient interruptions based on user's current task environment, but users may not need them, hence there should also always be an intuitive and easy way out. 
+6. Support Efficient Dismissal: Make it easy for users to dismiss services that they do not need. AI systems can make time based efficient interruptions based on user's current task environment, but users may not need them, hence there should also always be an intuitive and easy way out.
+
+7. Support Efficient Correction: Easy Mechanisms to correct AI systems when they go wrong 
+
+8. Scope Services when in doubt: Basically a guideline which tells AI system to display all options when it is uncertain about the user's goals 
+
+9. Make it clear why the system did what it did 
+
+10. Remember Recent Interactions(Maintain short term memory): A guideline that tells AI systems to remember recent interactions for eg: When we open outlook, it shows us most recent chats, people, recent files, copied links. Same goes for search engines. When you search "How old is charlie puth", the next time you open browser and type "How", the search engine gives age recommendation questions for other similar celebrities instead of giving random suggestions starting from "how"
+
+
