@@ -1,0 +1,12 @@
+NLP: Natural Language Processing 
+NLP is a branch of Aritifial Intelligence that can understand corpus of a text(context of a text body). 
+NLP enables models to:
+Analyse and interpret text, its context and meaning. 
+Interpret and contextualize written as well as spoken text
+Using NLP for context-identification from text or spoken words can be used for applications like sentiment analysis to interpret emotional sentiment of the users.
+NLP can also be used to translate sentences or written text from one lnaguage to another language.
+Eg: Cortana is a virtual assistant of Microsoft.
+We have bixby for samsung 
+Siri for apple 
+Alexa for amazon 
+LLMs using NLP for interpreting the meaning, contexts and insights from large chunks of sentences, LLM voice assistants use NLP to extract information from text input prompts and translate audio prompts to digital text information.
