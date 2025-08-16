@@ -34,4 +34,6 @@ Guidelines for Human-AI Interaction
 
 3. AI systems should match social norms: In simple words, they should interact with end-users like how real world peers would. Eg: When giving Time based interrupted recommendations based on user's current task environment, AI needs to use phrases like "Consider Using", "You may find these helpful"
 
-4. Mitigate Social Biases: Ensure that AI System's language and behaviors do not reinforce undesirable and unfair stereotypes and biases.
+4. Mitigate Social Biases: Ensure that AI System's language and behaviors do not reinforce undesirable and unfair stereotypes and biases. Basically the language AI uses, the colors that is uses, any predictive texts/suggestions or any forms of interaction from AI systems should not have any forms of bias or stereotypes toward any groups, community, genders, race etc.
+
+5. Support Effecient Invocation: Basically AI systems can track user's behavior when interacting with certain tools and can jump in with suggestions, corrective measures, optimizations in timely manner through certain triggers(based on how end-users interact with those tools or elements).
