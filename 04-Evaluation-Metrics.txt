@@ -1,0 +1,13 @@
+Evaluation Metrics:
+
+Performance/Evaluation metrics are used to evaluate different machine learning models.
+
+Different Evaluation Metrics are used for different kinds of problems:
+
+1. Classification Metrics: Accuracy, Precision, Recall, F1-score, ROC, AUC 
+2. Regression Metrics: MSE, RMSE, MAE
+3. Ranking Metrics: MRR, DCG, NDCG 
+4. Statistical Metrics: Correlation 
+5. Computer Vision Metrics: PSNR, SSIM, IoU 
+6. NLP Metrics: Perplexity, BLEU, METEOR, ROUGE 
+7. Deep Learning Related Metrics: Inception Score, Franchet Inception Distance 

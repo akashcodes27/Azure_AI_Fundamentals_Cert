@@ -10,3 +10,12 @@ Feature Engineering: Feature Engineering is the process of transforming raw data
 
 
 Training: In this phase, the labelled and feature-engineered dataset is fed into the machine learning algorithm. The neural network(or the model) learns the patterns from this dataset, adjusts its internal weights, minimizes error , improves understanding of patterns through backpropagation guided by the loss function.
+
+Hyperparameter Tuning: We will learn this later, for now just think of this as turning knobs and making adjustments to the model to improve the accuracy of the model.
+
+Serving and Inference: Serving is hosting the model so it can be used, Inference is using the model where we provide unseen data to generate predictions from the model. Two types of inference: Real-Time Inference, Batch Processing 
+
+
+Difference between Forecasting and Prediction:
+Forecasting: Prediction using relevant trends, not really guessing.
+Prediction: Prediction without relevant trends, more of guessing, uses decision theory, uses Statistics to predict future outcomes 

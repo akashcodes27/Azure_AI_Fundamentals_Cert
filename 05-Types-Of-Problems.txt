@@ -1,0 +1,38 @@
+Regression Problem: 
+
+A regression problem is a type of supervised machine learning task where the goal is to predict a continuous numeric value (not a category). The model learns from labelled training data that has input features and a real-valued output, then tries to estimate that output for new, unseen data. To solve regression problems, we have regression models which basically model a linear relationship between one dependent variable(target variable) and multiple independent variables (features or attributes). The model basically learns relationships between seen inputs/outputs, and when presented with unseen inputs, it tries to find outputs that have a linear relationship with inputs(basically tries to find the best line or curve)
+
+
+Examples:
+
+Predicting house prices based on size, location, and number of rooms.
+Estimating a person’s weight from their height and age.
+Forecasting stock prices or temperature.
+
+
+For Evaluation of the predictions generated through regression problem, we use evaluation metrics like: MSE, RMSE, MAE 
+(Mean Squared Error), (Root Mean Squared Error), (Mean Absolute Error)
+
+-----------------------------------------------------------------------------------------------------
+Mean Squared Error: 
+We take difference of (Actual and Prediction),
+We square this difference 
+We take summation of all squared differences 
+We take average of the summation 
+
+So the final value is always positive as we took square. Lower the value, more closer is the predicted value to ground truth. Larger the value, greater is the difference in ground truth and predicted values 
+-----------------------------------------------------------------------------------------------------
+
+Root Mean Squared Error: Basically Square Root of Mean Squared Error. Why we did it? Because MSE values can show a very huge difference between prediction and ground truth. However RMSE gives us a more approximate and sensible difference value between prediction and ground truth 
+
+
+------------------------------------------------------------------------------------------------------
+
+Mean Absolute Error: 
+Very similar to MSE, the only difference: we take absolute value instead of square 
+
+: We calculate difference between prediction and ground truth 
+We take absolute value for each different (not square as we did in MSE)
+We calculate average of the absolute value differences 
+And thats it, the value we get is the MAE (Mean Absolute Error)
+
