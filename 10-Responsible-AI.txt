@@ -1,0 +1,37 @@
+Responsible AI:
+Think of this as ethics or standards that AI systems should follow. Standards, guidelines, or a blueprint that AI systems should follow while solving real world problems. 
+
+Microsoft's 6 principles
+
+1. Fairness: AI systems should treat everyone fairly without any discrimination or bias 
+2. Reliability and Safety: AI systems should be reliable and safe to use. 
+3. Privacy and Security: AI systems should be secure and should respect privacy. 
+4. Inclusiveness: AI systems should empower and engage people. 
+5. Transparency: AI systems should be understandable 
+6. Accountability
+
+
+1. Fairness: AI systems can reinforce existing societal stereotypial biases during the development of the pipeline. This can cause AI systems to allocate or withold: information, resources, opportunities
+This is critical especially in domains of: Criminal justice, Employment hiring, Finance and credit
+
+2. Reliability and Safety: AI systems must be reliable and safe when providing any kind of service to the people. Their task implementation or working should not cause any kind of physical or emotional harm to the recepients of the services. If there are risks involved with AI systems, then the protocol to be followed is that: A QUANTIFIED REPORT OF RISKS AND HARMS must be submitted to the end-users. 
+Industries where reliability and safety are critical considerations: Self-driving vehicles(Autonomous Vehicles), AI health diagnosis, AI medical prescriptions, Autonomous weapon systems. 
+
+3. AI systems should be secure and should respect privacy of end-users.
+AI systems like Deeplearning models or CNNs, RNNs need large amount of user data for training purpose. This data can include personal sensitive information referred to as PII(Personally Identifiable Information) for millions of users. Hence AI systems must be built and maintained in such a manner that the PII of their end-users remains safe and does not leak or get disclosed.
+
+4. Inclusivity: 
+AI systems should be designed to solve problems of the majority of the populations. They should be inclusive of all cultures, languages, ethnicity, social groups. Eg: We have 100s of languages , even though english is spoken by majority, to cater to needs to rest of the world, AI systems are being developed that are capable for working with large number of different languages 
+
+5. Transparency: AI systems should be transparent. They should be transparent about their data related policies, about their technical aspects, about user's data usage. They should be transparent about strengths and weaknesses of their AI systems. They should consider adopting Open-Source AI framework approach.
+
+--------------------------------------------------------------------------------------------------------
+Guidelines for Human-AI Interaction
+
+1. Make clear what system can do
+
+2. Provide Time Services based on context: Time when to act or interrupt based on user's current task environment. Eg: After using Apple Maps, it remembers when you have parked your car. When you open the app after a little, it provides directions to your parked car. Basically AI systems interrupt users at appropriate times on the basis of the users' current task environments by giving suggestions, reminders, guidelines, relevant information.
+
+3. AI systems should match social norms: In simple words, they should interact with end-users like how real world peers would. Eg: When giving Time based interrupted recommendations based on user's current task environment, AI needs to use phrases like "Consider Using", "You may find these helpful"
+
+4. Mitigate Social Biases: Ensure that AI System's language and behaviors do not reinforce undesirable and unfair stereotypes and biases.

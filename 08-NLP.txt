@@ -10,3 +10,15 @@ We have bixby for samsung
 Siri for apple 
 Alexa for amazon 
 LLMs using NLP for interpreting the meaning, contexts and insights from large chunks of sentences, LLM voice assistants use NLP to extract information from text input prompts and translate audio prompts to digital text information.
+
+
+Azure's NLP Offerings:
+Text Analytics 
+Translator 
+Speech 
+Language Understanding (LUIS)
+
+
+Azure's offerings for Conversational AI: 
+QnA Maker: Create a conversational Question and Answer bot from existing knowledge base 
+Azure Bot Service: Intelligent Serverless bot that can be scaled on demand. Used for creating, publishing, managing bots 
