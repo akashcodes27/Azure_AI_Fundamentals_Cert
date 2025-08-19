@@ -11,4 +11,30 @@ Ingest, Enrich, Explore
 so here AI Enrichment and Indexing can be combined into one single step 
 
 
-So lets say we have
+So lets say we have a knowledge mining pipeline:
+We can divide it across 3 phases or parts: Ingest, Enrich, Explore 
+
+
+Ingest: This step involves collecting data from a number of different sources, collecting data from a number of sources and feeding it into a Knowledge Mining Pipeline. What kind of data: In order to collect large amount of data and feed into knowledge mining pipeline, we must know what kind of data we are dealing with(Structured, Unstructured), wee collect both kinds of data (Structured data includes CSV files, Spreadsheets, row and column tables) and also unstructured data like (Audio files, video files, images, pdfs, documents, reports, speech content). The goal at this stage is to gather data from all different sources and to prepare for ingestion by the Knowledge Mining Pipeline. So in order to get all this data, a bunch of different activities are a part of this phase which include connecting with the storage accounts, databases, external repositories where the data resides. 
+
+Enrichment: Now that we have all the data collected and prepared from different external structured and unstructured data sources, we have the data ready for the Knowledge Minining pipeline. We shall now use different Azure Cognitive Services to enrich this data using AI tools and APIs provided/exposed by the Azure Cognitive Services bundle. Lets take a look at different Azure Cognitive Services that can "Enrich" this knowledge mining pipeline containing data extracted from all kinds of external sources, storage accounts, external respositories etc. In general terms these services help understand and interpret deeply the data so we can derive meaningful insights, hidden patterns, important relationships betweem different different data points.
+
+
+Tools used for different Real Life Applications:
+
+1. CONTENT RESEARCH 
+
+ENRICHMENT FOR CONTENT RESEACRH
+  
+  Printed Text/Character Recognition: Extracts texts from scanned documents, pdfs, images so that the words/sentences extracted become digital or machine readable. Basically identifying, detecting text object instances from the data(images, pdfs) and tranforming the extracted texts into a digital machine readable format.
+
+  Key Phrase Extraction: This involves analyzing all the documents text content to find out the most relevant, most necessary and important facts, details, information from all the data that we have (Basiaclly identifying and extracting the most important texts, keywords, or phrases) to highlight main topic or ideas 
+
+  Sharper Skill: Basically turns, or organizes unstructured data into structured data (into a more usable format or structure)
+
+  Technical Keyword Sanitation: Cleans and standardizes technical terms so that they are standard and consistent across different documents 
+
+  Format Defination Miner: Finds and extracts important definations of important concepts and terms from the text 
+
+  Large Scale Vocabulary Matcher: Matches words or phrases to domain specific vocabularies, dictionaries, taxonomies.
+  
