@@ -1,0 +1,14 @@
+Knowledge Mining in a discipline in AI that uses combination of various cognitive services to quickly learn vast amount of information. 
+It involves organizations to deeply understand and easily explore information, explore hidden patterns, find relationships at scale using combination of AI services that are easily available through simple exposed APIs
+It is divided into 3 parts:
+Ingest, Enrich, Explore 
+
+1. Data Ingestion: Pull data from different sources like (Databases , storage, etc) 
+2. AI Enrichment: Apply AI models (OCR, Entity Recognition, Language detection, Sentiment Analysis, key phrase extraction etc) to turn unstructured data into searchable index 
+3. Indexing: Organize and store enriched data in search index 
+4. Exploring: Users or apps can query the index to quickly find insights, trends, or answers across huge datasets 
+
+so here AI Enrichment and Indexing can be combined into one single step 
+
+
+So lets say we have
