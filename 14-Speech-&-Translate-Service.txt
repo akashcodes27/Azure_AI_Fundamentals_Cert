@@ -1,0 +1,15 @@
+Azure's Speech and Translate Service:
+
+
+Azure Translate Service
+It is Azure's translate service that can translate 90 languages and dialects. It uses NMT (Neural Machine Translation) replcaing SMT (Statistical Machine Translation)
+It also provides a Custom Translator which we can use to customize the service based on business needs 
+
+
+Azure Speech Service
+This is Azure's speech synthesis service which allows Speech to Text, Text to Speech and Speech Translation. Supports:
+Real-Time Speech to text 
+Batch-Time Speech to text 
+Can Create Custom Speech Models 
+Multi-Device Conversation 
+

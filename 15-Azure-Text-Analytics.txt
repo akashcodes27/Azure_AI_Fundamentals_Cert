@@ -1,0 +1,14 @@
+Text Analytics 
+
+Text Analytics API is a Natural Language Processing  service for text mining and analysis 
+Text Analytics can perform: 
+1. Sentiment Analysis: Identifying what people think about the brand  
+2. Opinion Mining: Aspect based sentiment analysis. Granular information about the opinions related to aspects.
+3. Key-Phrase Extraction: Quickly identify the main concepts in text 
+4. language detection: detect the language input text is written in 
+5. Named Entity Recognition(NER): Identify and categorize entities in your text as people, places, organizations.
+
+What is Key-Phrase extraction: Key phrase extraction works best when you give it bigger amounts of text. Sentiment Analysis: Performs best when you give it small amounts of text 
+Document size must be 5120 characters or fewer, and we can have upto 1000 items per collection 
+
+Named Entity Recognition: Basically identify certain words in text content and associate them to one of many different entity types.
