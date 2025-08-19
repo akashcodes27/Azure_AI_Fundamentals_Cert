@@ -1,0 +1,17 @@
+Face Service 
+
+Azure Face Service provides AI algorithms that can detect, analyze, and recognize human faces. 
+
+
+Azure Face Service can detect: 
+Faces in an image, 
+
+Face landmarks: There are upto 27 predefined landmark points in an image 
+
+Face attributes in an image: A key-value pair dictionary can be created containing the different face attributes, eg: Age, Gender, Exposure, Emotion, Accessories, Glasses, Hair etc 
+
+Similar Faces,
+
+Same face as a specific identity across a gallery of images 
+
+Each face detected has a separate identity hence there is a "Unique Identifier String" for each face detected in the image 

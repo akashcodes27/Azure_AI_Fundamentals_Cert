@@ -38,3 +38,34 @@ ENRICHMENT FOR CONTENT RESEACRH
 
   Large Scale Vocabulary Matcher: Matches words or phrases to domain specific vocabularies, dictionaries, taxonomies.
   
+
+  After enrichment, we put the enriched data through Search Index Service to Create a Search Reference Library( hence makes it very easy to search and query)
+
+
+
+2. AUDITING, RISK,  COMPLIANCE MANAGEMENT 
+Developers could use these knowledge mining pipelines to help attorneys 
+
+
+
+1. Clause Extraction: Helps attorneys identify, locate, extract critical clauses, critical section in the legal documentation without reading the entire document. 
+
+2. Clause Classification: Categorizes expected clauses into different categories or types: "Payment Terms", "Data Privacy", "Non-Disclosure"
+
+3. GDPR Risk Scoring: Analyzes documents to find or phrases, sections that could cause a GDPR risk, sections, terms, phrases that could be out of compliance 
+
+4. Named Identity Extraction: Detects and extracts names of people, important dates, identities, locations, organizations from the documents. Useful for audits where identifying involved parties is critical 
+
+5. Key Phrase Extraction 
+
+6. Automatic Translation: Translates documents into preferred language for consistency  
+
+7. Language Detection: Automatically detects the language of the documents.
+
+Again, after enrichment, we put the result through search index, make the extracted terms, data, ideas, people, entities, locations, keywords,concepts, we make them searchable through indexing
+
+
+3.  CUSTOMER SUPPORT AND FEEDBACK ANALYSIS 
+
+
+This diagram shows how Knowledge Mining can improve customer support and feedback analysis. Companies usually get huge amounts of customer data — emails, chat logs, surveys, call transcripts — which is too much for humans to read through quickly. In the Ingest phase, this raw data (source data) is collected and passed through document cracking, which breaks it down into a usable format. Then, in the Enrich phase, AI applies cognitive skills (like sentiment analysis, keyword extraction, or custom models) to understand what customers are saying and how they feel. The output becomes an enriched document, which is stored in a knowledge store and linked with projections (future insights or trends). Finally, in the Explore phase, this information is placed in a search index and visualized through analytics dashboards, so support teams can quickly find answers to customer inquiries, identify common complaints, and measure overall sentiment.
