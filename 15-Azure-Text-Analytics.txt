@@ -12,3 +12,7 @@ What is Key-Phrase extraction: Key phrase extraction works best when you give it
 Document size must be 5120 characters or fewer, and we can have upto 1000 items per collection 
 
 Named Entity Recognition: Basically identify certain words in text content and associate them to one of many different entity types.
+
+Sentiment Analysis. Sentiment Analysis will apply labels and confidence scores to text at sentence/document level.
+
+Opinion Mining: Sometimes Sentiment analysis doesnt properly assign labels because a sentence can have positive as well negative words hence we have "Opinion Mining" which fixes that issue as it provides more granular data.

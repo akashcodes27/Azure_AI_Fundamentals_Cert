@@ -1,0 +1,28 @@
+Optical Character Recognition is a process of extracting printed or handwritten text in digital text format. 
+
+OCR can be applied to:
+Products 
+Documents 
+Invoices
+Bills 
+Financial Reports APIs that perform OCR extraction: 
+OCR API and Read API
+
+
+OCR API:
+1. Older Recognition Model 
+2. Supports only images 
+3. Works well with smaller data 
+4. Executes tasks Synchronously hence less time efficient
+5. Supports more languages 
+6. Easy to implement 
+
+
+
+Read API 
+1. Updated Recognition Model 
+2. Supports images, videos, documents, pdfs 
+3. Works great for larger data 
+4. Executes tasks Asynchronously hence more time efficient 
+5. Supports less languages 
+6. Slightly difficult to implement 
