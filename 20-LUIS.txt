@@ -1,0 +1,40 @@
+LUIS (Language Understanding Intelligent Service) is a cloud-based Natural Language Processing (NLP) service from Microsoft Azure that helps applications understand human language and extract meaning from it.
+What it does: LUIS takes user input (typed text or spoken language) and figures out the intention (what the user wants to do) and the entities (important details in the sentence).
+
+Example: If a user types “Book me a flight to Toronto tomorrow” →
+
+Intent: BookFligh
+Entities: Destination = Toronto, Date = tomorrow
+
+Why it’s useful: It allows developers to build chatbots, virtual assistants, and apps that can understand natural language commands instead of fixed keywords.
+
+Integration: LUIS can be combined with other services like Azure Bot Service or speech recognition to create smart conversational AI systems.
+
+👉 In short: LUIS is Microsoft’s AI service that helps apps “understand” natural human language by identifying the user’s intent and extracting key information.
+
+
+Core Schema of LUIS
+
+A LUIS application is built on a schema, which defines three key parts:
+Intents (Intentions)
+Intents represent what the user wants to do.
+Example: “Book me two flights to Toronto” → Intent = BookFlight.
+A special None Intent always exists, used for inputs that don’t match any intent.
+
+Entities
+
+Entities are the specific details in the request that help complete the intent.
+Example: In “Book me two flights to Toronto”:
+Number of flights = two
+Destination = Toronto
+Entities act like the “data” extracted from a user’s request.
+
+Utterances
+
+Utterances are examples of what users might say.
+These are used to train the ML model inside LUIS so it can recognize real-world phrasing.
+Example utterances for a BookFlight intent might be:
+“Book me a ticket to Paris”
+“I need two flights to Toronto”
+“Reserve a seat for tomorrow’s flight”
+It’s recommended to provide 15–30 sample utterances per intent for better accuracy.
