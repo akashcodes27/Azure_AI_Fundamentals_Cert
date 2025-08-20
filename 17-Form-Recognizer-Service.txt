@@ -1,0 +1,29 @@
+Form Recognizer takes printed or handwritten documents (like invoices, receipts, ID cards, forms) and converts them into digital, editable data. Unlike normal OCR that just extracts plain text, Form Recognizer also keeps the structure of the document — meaning it understands relationships like rows, columns, tables, and key-value pairs.
+
+Azure Form Recognizer is like a super-smart OCR that doesn’t just read text but also understands the layout and meaning of form-like data, making it easier to automate data entry and make documents searchable.
+
+
+Traditional Data Entry:
+
+Imagine you get 1,000 paper invoices or forms every month.
+
+A human employee would manually read each form and type the values (like Invoice Number, Date, Total Amount) into a system (Excel, ERP, CRM).
+
+This is slow, repetitive, costly, and error-prone.
+
+With Azure Form Recognizer:
+
+The forms (scanned PDFs, images, or digital files) are fed into the service.
+
+Form Recognizer automatically extracts key-value pairs, table data, and checkboxes.
+
+That extracted data is directly pushed into your system — no human typing needed.
+
+👉 In short: Form Recognizer replaces manual data entry.
+Instead of people typing values into databases, the AI service “reads” the documents and enters the data automatically, while preserving the structure.
+
+✅ Example:
+
+An insurance company receives claim forms → Form Recognizer pulls out Name, Policy Number, Claim Amount → sends it directly to the claims system.
+
+An accounts team gets invoices → Form Recognizer extracts Invoice ID, Vendor, Amount → enters it into the finance software.

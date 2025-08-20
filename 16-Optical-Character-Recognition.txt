@@ -26,3 +26,6 @@ Read API
 4. Executes tasks Asynchronously hence more time efficient 
 5. Supports less languages 
 6. Slightly difficult to implement 
+
+
+Usually to implement OCR, we use computer vision SDK 
