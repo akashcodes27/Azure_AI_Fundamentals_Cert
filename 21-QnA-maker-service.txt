@@ -1,0 +1,13 @@
+QnA Maker is not a full conversational AI by itself — it’s primarily a question-answering service. Here’s how to see it:
+
+At its core: QnA Maker builds a knowledge base (Q&A database) from the documents or FAQs you provide. When a user asks a question, it matches the input to the closest answer in that database.
+
+Not conversational: It doesn’t handle complex dialogue, multi-turn conversations, or context-switching on its own. It’s more like a smart FAQ engine.
+
+Becomes conversational when combined: To make it interactive like a chatbot, QnA Maker is usually integrated with Azure Bot Service (or another bot framework). Then the bot handles the conversation flow, while QnA Maker provides the answers.
+
+👉 Think of it like this:
+
+QnA Maker alone = A smart “question-answer” search engine built from your documents.
+
+QnA Maker + Bot Service = A conversational chatbot that can answer questions naturally.

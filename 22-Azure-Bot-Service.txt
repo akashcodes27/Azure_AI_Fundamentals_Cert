@@ -1,0 +1,34 @@
+Azure Bot Service: It is Azure's intelligent serverless bot service that scales on demand. It is used for creating, publishing and managing bots. Azure portal has a variety of third party services with which we can connect our Azure Bot Service with. 
+
+Azure bot service can integrate the bot with variety of other Azure, microsoft or other third party offerings via channels:
+Direct Line, Alexa, Office 365 mail, facebook 
+
+
+Azure bot service end-to-end workflow:
+Design -> Build -> Test -> Publish -> Connect  -> Evaluate 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+BOT FRAMEWORK SDK:
+Bot Framework SDK v4 is an open source SDK that allows developers to model and build sophisticated conversations. The bot service along with Bot framework SDK provides an end-to-end workflow.
+
+This framework allows developers tp create bots that can understand speech, understand natural language, handle question and answers. The bot framework SDK allows us to not only build sophisticated bots but also other intelligent related Ai servies.
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+BOT FRAMEWORK COMPOSER: 
+BOT FRAMEWORK COMPOSER is built on top of BOT FRAMEWORK SDK  is not a bot service but an IDE that provides a development environment to developers to model, build and manage their bots o conversational experiences. 
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+We can deploy our bots to:
+1. Azure Web Service 
+2. Azure Functions 
+
+Templates to build:
+QnA maker bot 
+Enterprise or personal assistant bot. 
+Language bot 
+Calender or people bot 

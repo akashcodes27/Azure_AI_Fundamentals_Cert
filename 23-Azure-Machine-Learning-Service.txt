@@ -1,0 +1,18 @@
+AZURE MACHINE LEARNING SERVICE 
+
+Azure Machine Learning Service is a service that simplifies the running of the AI/ML related workloads allows the developers to build flexible Automated Machine Learning Pipelines. Allows us to use languages like Python or R. Also allows developers to run Deep Learning workloads such as Tensorflow.
+
+Azure Machine Learning Service allows us to create the code/text editor environment JUPYTER NOTEBOOKS allowing developers to build, document, test and share their model as a shareable ipynb file. 
+
+
+AZURE MACHINE LEARNING SDK: 
+It is an SDK which has been designed specifically to interact with Azure Machine Learning Service. 
+
+
+MLOps:
+It allows end-to-end automation of ML pipelines: CI/CD training, Inference
+
+AZURE MACHINE LEARNING DESIGNER:
+Basically a DRAG-AND-DROP Machine Learning model designer. It provides a Drag-and-Drop interface to visually built, test, and deploy machine learning models 
+
+
