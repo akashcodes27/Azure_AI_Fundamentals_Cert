@@ -25,3 +25,27 @@ Models fairness through disparity metrics and mitigates unfairness
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+AZURE MACHINE LEARNING STUDIO:
+
+Inside the Azure's ML studio interface we can see a bunch of different available options:
+
+1. Author Section: Notebooks, Automated ML, Designer 
+   Notebooks: Basically jupyter notebooks are a code editor/IDE to write python code to build, train, and deploy ML models 
+   Automated ML: Uses a Completely Automated Process to build, train and deploy ML models. But works for only 3 types of models.
+   Designer: Visual Drag-and-Drop model to design and construct end-to-end machine learning pipelines.
+
+
+2. Assets Section:
+   Datasets: Data that we upload which will be used for training 
+   Experiments: When you run a training job, they are detailed here 
+   Pipelines: ML workflows or pipelines we have built or we have used in the designer. 
+   Models: A model registery containing trained models that can  be deployed 
+   Endpoints: When we deploy a model, it is hosted on an accessible REST API Endpoint. (Basically an accessible url)
+
+
+3. Manage Section:
+   Compute: The underlying computing instances used for training, inference
+   Environments: Python environments for Machine Learning Experiments 
+   Datastores: A data repository where our dataset resides 
+   Data Labelling: Human with ML-assisted labeling to label datasets for supervised machine learning model training 
+   Linked Services: External services that we can connect to the workspace such as: Azure Synapse Analytics 
