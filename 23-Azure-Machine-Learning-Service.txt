@@ -16,3 +16,12 @@ AZURE MACHINE LEARNING DESIGNER:
 Basically a DRAG-AND-DROP Machine Learning model designer. It provides a Drag-and-Drop interface to visually built, test, and deploy machine learning models 
 
 
+Data Labelling Service:
+Essemble a team of humans to label your data.  
+
+
+Responsible Machine Learning:
+Models fairness through disparity metrics and mitigates unfairness 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
