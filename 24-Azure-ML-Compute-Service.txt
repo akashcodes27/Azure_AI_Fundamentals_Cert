@@ -1,0 +1,16 @@
+Azure Machine Learning - Compute Service 
+
+Azure Machine Learning Studio has 4 kinds of Compute Services:
+
+1. Compute Instances:
+   Development workstations that Data Scientists can use when working with Data and Models. Personal Development Environments. Best for inidivual work, prototyping and small experiments.
+
+2. Compute Clusters:
+   Are clusters of compute resources(Virtual Machines) that can be scaled up or down as needed. Used mainly for production ML workloads, usd for training machine learning models at scale, where multiple jobs can be run in parallel.
+   
+3. Inference Clusters: 
+   Clusters or compute resources that are dedicated for specific trained models that can be scaled and deployed atany time. Compute Resources that have been explicitely dedicated to specific applications that have been hosted.
+
+
+4. Attached Compute:
+   External Compute Resources(Azure Databricks, HDInsight, ) that we can be connected to Azure ML.

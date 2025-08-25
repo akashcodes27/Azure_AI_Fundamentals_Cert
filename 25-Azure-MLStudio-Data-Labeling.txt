@@ -1,0 +1,22 @@
+Azure MLStudio Data Labeling:
+
+
+Human-in-the-loop labeling:
+We can assign or grant access to a bunch of people or a team of people to work on the Data Labeling Process(Data Annotation Process). This is known as  "Human-in-the loop labeling"
+
+
+ML-assisted-labeling: 
+We can also use ML to perform the labeling process 
+
+
+We will encounter several different types of labeling tasks to choose from:
+
+1. Image Classification (Multi-Class classification)
+   Each image belongs to one category only
+
+
+2. Image Classification (Multi-Label Classification)
+   Multiple labels can be assigned to one image 
+
+3. Object Detection 
+   Draw bounding boxes around an object in an image and assign labels 
