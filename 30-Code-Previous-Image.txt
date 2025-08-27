@@ -1,0 +1,21 @@
+That code you see in the slide is more like a “main pipeline script” (an orchestrator). It doesn’t actually do the detailed data cleaning or model training itself. Instead, it:
+
+Defines the workflow → specifies the sequence of steps (data prep → training → evaluation, etc.).
+
+Points to the implementations → each step calls an external script (dataprep.py, train.py, etc.) where the actual logic lives.
+
+Assigns resources → tells Azure which compute target (CPU cluster, GPU cluster) to use for each step.
+
+Connects inputs and outputs → passes processed data from one step to the next.
+
+Submits the pipeline as a run → so Azure ML executes everything, tracks metrics, and stores outputs.
+
+👉 Think of it like this:
+
+The pipeline script = the conductor of an orchestra 🎼.
+
+The individual scripts (dataprep.py, train.py, etc.) = the musicians 🎻🎺🎹 actually performing tasks.
+
+Azure ML = the concert hall 🏟️ providing compute resources and recording the performance (runs, metrics).
+
+So yes, the pipeline code is an abstracted “main file” that organizes the ML workflow but relies on step scripts for the detailed implementation.
