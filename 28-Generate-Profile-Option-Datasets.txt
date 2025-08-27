@@ -1,0 +1,25 @@
+What "Generate Profile" Does
+
+When you click Generate Profile for a dataset:
+Azure ML runs a data profiling job on the dataset.
+It automatically analyzes the dataset and produces summary statistics and visualizations about your data.
+
+What Information You Get
+
+The profile shows things like:
+
+Column types → numeric, categorical, text, date.
+Value distributions → histograms for numbers, frequency counts for categories.
+Missing values → how many rows are null/empty in each column.
+Min/Max/Average values for numeric columns.
+Unique values and cardinality for categorical data.
+
+Why It’s Useful
+
+Helps you understand your dataset quality before training.
+Lets you spot problems like missing values, outliers, or incorrect data types.
+Provides a quick EDA (Exploratory Data Analysis) without writing code.
+Saves time when deciding how to clean or preprocess your data.
+
+👉 In short:
+The Generate Profile option gives you a quick, automated overview of your dataset (distributions, missing values, column stats) so you can decide if the data is ready for ML or if it needs cleaning.
