@@ -1,0 +1,12 @@
+Custom Vision is an Azure AI service that lets you build your own image classification and object detection models without needing to write code. It’s a fully managed, no-code tool, which means you don’t have to worry about coding, infrastructure, or managing complex ML pipelines. Everything is handled for you through a simple web interface at customvision.ai
+.
+
+Here’s how it works step by step:
+
+Upload Images – You start by uploading images of the objects you care about. These images can already be labeled (e.g., “dog,” “cat,” “car”) or you can add tags inside Custom Vision.
+
+Train – Once images are tagged, Custom Vision uses them to automatically train a machine learning model. The model learns to recognize the objects or categories you specified.
+
+Evaluate – After training, you can test the model using new images. Custom Vision shows accuracy scores and provides a REST API so you can integrate the model into apps or systems (e.g., automatically tagging images in a database or detecting objects in a camera feed).
+
+👉 In short: Custom Vision makes it super easy to build a computer vision model by just uploading, tagging, and training images — no coding required.
