@@ -1,0 +1,61 @@
+Scenario: Forecasting daily sales for a retail store
+
+You have 3 years of sales data, with columns like:
+
+Date
+
+StoreID
+
+Sales (target to predict)
+
+Weather
+
+Holiday
+
+
+
+You want to predict next month’s sales. Here’s how those advanced configs are applied automatically in Azure ML:
+
+
+1. Holiday detection and featurization
+
+Azure checks the Date column → sees Dec 25 (Christmas) or Nov (Black Friday) → adds a feature called “Holiday = Yes/No” because sales usually spike during these days.
+👉 So the model learns: If Holiday = Yes, Sales go up.
+
+
+
+2. Time-series and DNN learners
+
+Azure doesn’t force you to choose one model. It will try:
+ARIMA (a statistical model, good for simple trends).
+Prophet (handles seasonality, e.g., “every weekend sales increase”).
+ForecastTCN (Deep Learning) (captures complex patterns).
+👉 Azure tests them and picks the best performer.
+
+
+
+3. Grouping (multiple series)
+
+If you have 10 stores, Azure uses StoreID as a time series identifier.
+👉 That way, it forecasts sales for each store separately, but still in one experiment.
+
+
+
+4. Rolling-origin cross validation
+
+Azure splits your historical data like this:
+Train on Jan–Jun, test on Jul.
+Train on Jan–Jul, test on Aug.
+
+Train on Jan–Aug, test on Sep.
+👉 This mimics real life, where you always train on the past and predict the future.
+
+
+
+5. Configurable lags
+
+Azure automatically creates features like:
+Sales 1 day ago (lag-1).
+Sales 7 days ago (lag-7).
+Sales 30 days ago (lag-30).
+👉 The model then learns patterns like “Sales today look similar to sales one week ago.”
