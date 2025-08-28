@@ -1,0 +1,11 @@
+Azure ML Endpoints allow you to deploy machine learning models as WEB SERVICE.
+
+
+The Workflow for Deploying a model:
+1. Register the model 
+2. Prepare an Entry Script 
+3. Prepare an Inference Script 
+4. Deploy the model locally to see if it works fine 
+5. Choose a Compute Target 
+6. Re-Deploy the model but this time to the cloud 
+7. Test the resuling Web Service 
