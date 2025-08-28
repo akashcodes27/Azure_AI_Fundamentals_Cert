@@ -1,0 +1,38 @@
+Imagine a medical test for a disease (like COVID testing).
+Some patients are positive (have the disease).
+Some are negative (don’t have it).
+The test (our ML model) predicts results.
+
+Now the metrics:
+
+1. Accuracy = “How often is the test correct?”
+Out of 100 patients tested, if 90 are correctly classified (positive or negative), accuracy = 90%.
+Good when classes are balanced (50 sick, 50 healthy).
+Bad when data is imbalanced. Example: If 99 are healthy and 1 is sick → predicting “all healthy” = 99% accuracy (but useless).
+
+2. Precision = “If the test says you’re sick, how often is it right?”
+Example: The test says 20 people are sick, but only 15 really are. Precision = 15/20 = 75%.
+High precision = very few false alarms.
+Important in fraud detection (if flagged as fraud, must be reliable).
+
+3. Recall = “Of all sick people, how many did the test actually catch?”
+Example: Out of 30 real sick patients, the test catches 25. Recall = 25/30 = 83%.
+High recall = very few missed cases.
+Important in churn prediction or disease testing (don’t miss actual positives).
+
+4. AUC (Area Under Curve) = “How well does the model separate sick vs healthy across all thresholds?”
+Imagine sliding the cutoff (what counts as positive) — AUC measures the overall ability to distinguish positives from negatives, no matter where you set the cutoff.
+Especially useful when positives are rare (like fraud or spam).
+
+✅ So in simple words:
+
+Accuracy → overall correctness.
+Precision → how many predicted positives were truly positive (don’t cry wolf).
+Recall → how many actual positives you caught (don’t miss cases).
+AUC → overall ability to separate positives vs negatives, even if positives are rare.
+
+👉 That’s why:
+
+Accuracy is used for balanced datasets.
+Precision & Recall are used when missing positives or raising false alarms has a cost.
+AUC is used when positives are rare (fraud, spam).
