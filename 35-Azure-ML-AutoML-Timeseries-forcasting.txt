@@ -1,1 +1,24 @@
-Time Series Forecasting is a machine learning technique used to predict future values based on data that is collected over time in a sequence. In a time series, each data point is linked to a timestamp (e.g., daily sales, hourly temperature, monthly stock prices). The key idea is that past patterns (like trends, seasonality, and cycles) can help forecast what will happen in the future. For example, by analyzing several years of retail sales data, a model can predict next month’s sales. Unlike regular regression, time series forecasting focuses on the order and timing of data, making it crucial for applications like demand planning, weather prediction, stock market analysis, and anomaly detection
+Time Series Forecasting is a machine learning technique used to predict future values based on data that is collected over time in a sequence. In a time series, each data point is linked to a timestamp (e.g., daily sales, hourly temperature, monthly stock prices). The key idea is that past patterns (like trends, seasonality, and cycles) can help forecast what will happen in the future. For example, by analyzing several years of retail sales data, a model can predict next month’s sales. Unlike regular regression, time series forecasting focuses on the order and timing of data, making it crucial for applications like demand planning, weather prediction, stock market analysis, and anomaly detection.
+It is similar to regression but it makes predictions on the basis of DATA collected over a period of time in a sequence. 
+
+
+
+
+1. Forecasting as a Multivariate Regression Problem
+
+A regression problem predicts a numeric value (e.g., sales next month).
+Multivariate regression means the prediction uses multiple input variables (not just one).
+In time series forecasting, those input variables can be:
+Past values of the target itself (e.g., sales from last 7 days).
+
+Other predictors (e.g., weather, holidays, promotions).
+👉 Example: Predicting next week’s sales could depend on:
+Sales from the past 4 weeks.
+Whether it’s a holiday season.
+
+Current inventory levels.
+
+2. Past Values as Features (“Pivoted”)
+Instead of only predicting based on today’s data, we “pivot” past values into features.
+Example: To predict sales for Day 10, we use Day 9 sales, Day 8 sales, Day 7 sales… as separate columns (features).
+This turns the time sequence into a format that ML regression models can understand.
