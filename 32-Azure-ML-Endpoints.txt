@@ -9,3 +9,18 @@ The Workflow for Deploying a model:
 5. Choose a Compute Target 
 6. Re-Deploy the model but this time to the cloud 
 7. Test the resuling Web Service 
+
+
+
+What is an Exposed Endpoint or a Pipeline Endpoint
+Once we deploy a trained ML model as a web service, users can call it by accessing the URL of the deployed web service and get instant predictions. Endpoint is basically an API that exposes the deployed application on the web to be accessed from anywhere. 
+
+But what are the foundational technologies for the running these trained models as a web service. 
+AKS (Azure Kubernetes Service): Good for High-Scale Production grade workloads 
+ACI (Azure Container Instance): Lightweight option for testing on Smaller Workloads 
+
+
+Pipeline Endpoint:Batch Scoring: Suppose you get a CSV file of 1 million customer records every week. You don’t want to score them one by one through a real-time API. Instead, you trigger the pipeline endpoint → pipeline runs the scoring job → outputs a results file with predictions for all 1M records.
+This is basically an endpoint which is triggered by a Data Scientist for building and managing larger ML workflows.
+
+Realtime Endpoint: Instant predictions (API call, single input at a time). Direct usage in real-world applications. This is basically an endpoint triggered by an end user for their personal needs.
